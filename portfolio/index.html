@@ -121,8 +121,10 @@ body,.main-navigation ul ul {background: #ffffff;}a{color: #d34836;}.site-naviga
 <meta property="og:title" content="Portfolio - Yakubovich.net" />
 <meta property="og:url" content="https://yakubovich.net/portfolio/" />
 <meta property="og:site_name" content="Yakubovich.net" />
+<meta property="og:image" content="https://yakubovich.net/wp-content/uploads/2018/11/linkedin-logo-300x300.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Portfolio - Yakubovich.net" />
+<meta property="twitter:image" content="https://yakubovich.net/wp-content/uploads/2018/11/linkedin-logo-300x300.png" />
 <link rel="icon" href="https://yakubovich.net/wp-content/uploads/2018/11/cropped-462814-3-32x32.png" sizes="32x32" />
 <link rel="icon" href="https://yakubovich.net/wp-content/uploads/2018/11/cropped-462814-3-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="https://yakubovich.net/wp-content/uploads/2018/11/cropped-462814-3-180x180.png" />
@@ -213,7 +215,8 @@ article.post {
 		<h1 class="entry-title">Portfolio</h1>	</header>
 
 	<div class="entry-content">
-					</div>
+		<div><a href="https://www.linkedin.com/in/al-yakubovich" target="_blank" rel="noopener"><img class="style=&quot;vertical-align: bottom;&quot; alignnone wp-image-96" src="https://yakubovich.net/wp-content/uploads/2018/11/linkedin-logo-300x300.png" alt="" width="110" height="110" srcset="https://yakubovich.net/wp-content/uploads/2018/11/linkedin-logo-300x300.png 300w, https://yakubovich.net/wp-content/uploads/2018/11/linkedin-logo-150x150.png 150w, https://yakubovich.net/wp-content/uploads/2018/11/linkedin-logo.png 512w" sizes="(max-width: 110px) 100vw, 110px" /></a></div>
+			</div>
 
 	<footer class="entry-footer">
 	</footer>
@@ -275,40 +278,6 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/yakubovich.net\/wp-json\/contact-f
 <script type='text/javascript' src='https://use.fontawesome.com/30858dc40a.js?ver=4.0.7'></script>
 <script type='text/javascript' src='https://yakubovich.net/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
 <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js?ver=3.0.25'></script>
-<script type="text/javascript">		var ssb_admin_ajax = 'https://yakubovich.net/wp-admin/admin-ajax.php';
-		var ssb_post_id = 39 ;
-		var ssb_post_url = 'https://yakubovich.net/portfolio/';
-		var ssb_alternate_post_url = 'https://yakubovich.net/portfolio/';
-		jQuery( document ).ready(function(){
-		var is_ssb_used = jQuery('.simplesocialbuttons');
-		if( is_ssb_used ) {
 
-			var data = {
-			'action': 'ssb_fetch_data',
-			'postID': ssb_post_id
-		};
-			jQuery.post(ssb_admin_ajax, data, function(data, textStatus, xhr) {
-				var array = JSON.parse(data);
-
-				jQuery.each( array, function( index, value ){
-
-					if( index == 'total' ){
-						jQuery('.ssb_'+ index +'_counter').html(value + '<span>Shares</span>');
-					}else{
-						jQuery('.ssb_'+ index +'_counter').html(value);
-					}
-				});
-
-			});
-		}
-		})
-
-		document.addEventListener("DOMContentLoaded", function() {
-			var if_ssb_exist = document.getElementsByClassName( "simplesocialbuttons" ).length > 0;
-			if (if_ssb_exist) {
-				ssbPlugin.fetchFacebookShares();
-			}
-		});;
-		</script>
 </body>
 </html>

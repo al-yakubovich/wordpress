@@ -10,23 +10,9 @@
 	<atom:link href="https://yakubovich.net/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://yakubovich.net</link>
 	<description>Welcome to the blog about Data Science, Machine Learning and Artificial Intelligence.</description>
-	<lastBuildDate>Wed, 14 Nov 2018 10:08:45 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 18 Nov 2018 13:24:56 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.8</generator>
-	<item>
-		<title>Comment on Hello world! by A WordPress Commenter</title>
-		<link>https://yakubovich.net/hello-world/#comment-1</link>
-		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
-		<pubDate>Wed, 14 Nov 2018 10:08:45 +0000</pubDate>
-		<guid isPermaLink="false">http:/?p=1#comment-1</guid>
-		<description><![CDATA[Hi, this is a comment.
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
-		<content:encoded><![CDATA[<p>Hi, this is a comment.<br />
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.<br />
-Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
-]]></content:encoded>
-	</item>
 </channel>
 </rss>

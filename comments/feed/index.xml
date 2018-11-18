@@ -6,10 +6,10 @@
 	
 	>
 <channel>
-	<title>Comments for blog</title>
+	<title>Comments for Yakubovich.net</title>
 	<atom:link href="https://yakubovich.net/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://yakubovich.net</link>
-	<description>Just another WordPress site</description>
+	<description>Welcome to the blog about Data Science, Machine Learning and Artificial Intelligence.</description>
 	<lastBuildDate>Wed, 14 Nov 2018 10:08:45 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>

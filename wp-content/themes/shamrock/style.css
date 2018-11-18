@@ -852,11 +852,14 @@ a:active {
   margin-bottom: 40px;
   position: relative;
 }
-.smr-post:last-child {
+
+/*MY CHANGE*/
+/* .smr-post:last-child {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
-}
+} */
+
 .smr-post-separator {
   height: 1px;
   width: 100%;
@@ -922,9 +925,12 @@ a:active {
   display: block;
   position: relative;
 }
-.entry-content p:last-child {
+
+/* MY CHANGE */
+/* .entry-content p:last-child {
   margin-bottom: 0;
-}
+} */
+
 .entry-content a:not(.more-link):not(.wp-block-button__link){
   color: #333333;
   background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(50%, #ffffff), color-stop(50%, #ff5050));
@@ -1103,8 +1109,8 @@ a:active {
 --------------------------------------------------------------*/
 .smr-pagination {
   float: left;
-  border-top: 1px solid #e2e2e2;
-  padding: 40px 0 0;
+  /*! border-top: 1px solid #e2e2e2; */
+  /*! padding: 40px 0 0; */
   margin: 0 0 40px;
   text-transform: uppercase;
   width: 100%;
